@@ -4,6 +4,7 @@ class Invoice
     p "Print out invoice."
   end
 
+  #Instance method
   def convert_to_pdf
     p "Converted to PDF."
   end
