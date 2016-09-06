@@ -9,3 +9,10 @@ while i <= 10
   end
   i += 1
 end
+
+for j in 0..10
+  p "Still in for loop: #{j}!"
+  if j%2 == 0
+    p "#{j} is divisible by 2!"
+  end
+end
