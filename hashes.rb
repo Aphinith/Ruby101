@@ -22,4 +22,12 @@ print "This is using symbols: \n#{hash_using_symbols} \n"
 
 hash1.delete(:second_value)
 
-print "This is now hash1 with the second key deleted: \n#{hash1}"
+puts "This is now hash1 with the second key deleted: \n#{hash1}"
+
+hash1[:second_value] = "This is the replacement for the second value"
+
+puts "This is the new hash1 after adding the replacement: \n#{hash1}"
+
+hash1.each_key do |key|
+  puts "Iterating over hash1 for its keys: #{key}"
+end
