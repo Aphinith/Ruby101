@@ -19,3 +19,7 @@ hash_using_symbols = {
 }
 
 print "This is using symbols: \n#{hash_using_symbols} \n"
+
+hash1.delete(:second_value)
+
+print "This is now hash1 with the second key deleted: \n#{hash1}"
